@@ -1,0 +1,310 @@
+* {
+    margin: 0px;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.theDevNews {
+    margin: 0;
+    height: 7.81vh;
+    background-color: #02A28F;
+    color: #FFFFFF;
+    padding: 0.8rem 0 3.7rem 9.7rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a {
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+b {
+    font-weight: 700;
+}
+
+.backgroundImg {
+    width: 48.5vw;
+    height: 54vh;
+    background-image:
+        linear-gradient(to bottom, rgba(102, 102, 102, 0) 60%, rgba(0, 0, 0, 1)100%), url(midia/big-img.jpeg);
+    background-size: contain;
+    background-position: center;
+    margin: 3.1rem 0.6rem 1.6rem 9.7rem;
+    border-radius: 0.6rem;
+    background-size: cover;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 17.5rem 0 0 1.5rem;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.8rem;
+
+}
+
+.containerCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    width: 48.5vw;
+    margin-left: 9.75rem;
+    margin-top: 0.6rem;
+}
+
+.postMore {
+    width: 48.5vw;
+    height: 7.6vh;
+    border-radius: 0.5rem;
+    padding: 0 1.25rem;
+    margin-left: 9.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    width: 23.3vw;
+    height: auto;
+    background-color: #FFFFFF;
+    border-radius: 0.6rem;
+    box-shadow: 0 0.25rem 0.5rem rgb(166, 162, 162);
+    overflow: hidden;
+}
+
+.cards>img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.cardContent {
+    padding: 0.6rem 0 0 0.93rem;
+}
+
+.textGreen {
+    color: #02A28F;
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 0.6rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    gap: 3.5rem;
+}
+
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.divGreen {
+    background-color: #02A28F;
+    color: #FFFFFF;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.postsP {
+    width: 23.8vw;
+    height: 6.5vh;
+    border-radius: 0.6rem;
+    margin-top: 3.1rem;
+    padding: 0.93rem 0.93rem;
+    align-items: center;
+}
+
+.bold {
+    font-size: 0.9rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.date {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #616161;
+    margin-top: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.mineCard {
+    width: 23.8vw;
+    height: 13.15vh;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    align-items: center;
+    gap: 4.6rem;
+    padding: 0.6rem;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgb(220, 212, 212);
+    margin-top: 1.25rem;
+}
+
+.contentRight {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.category {
+    width: 23.3vw;
+    height: 6.57vh;
+    padding: 0.93rem 0 0.6rem 0.93rem;
+    justify-content: center;
+}
+
+.list {
+    color: #616161;
+    font-size: 1rem;
+    font-weight: 600;
+    list-style: none;
+    padding: 0 0 0.6rem;
+    width: 23.3vw;
+}
+
+.listSpace {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.93rem;
+}
+
+.footer {
+    background-color: #02A28F;
+    color: #FFFFFF;
+    height: 6.57vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.87rem;
+    font-weight: 600;
+    margin-top: 3.1rem;
+}
+
+@media only screen and (max-width:768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theDevNews {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .backgroundImg {
+        width: 95%;
+        height: 65vh;
+        background-size: cover;
+        background-position: center;
+        margin: 1rem 0.5rem 0;
+    }
+
+    .divGreen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    .postsP {
+        width: 95.9vw;
+        display: flex;
+        margin: 0.6rem 0.4rem 0 0.4rem;
+    }
+
+    .mineCard {
+        width: 95.9vw;
+        height: 13.15vh;
+        display: grid;
+        grid-template-columns: 5rem 100fr;
+        align-items: center;
+        margin-left: 0.5rem;
+    }
+
+    .postMore {
+        width: 95.9vw;
+        height: 2.5rem;
+        margin: 0 0.5rem 1.5rem 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .containerCards {
+        grid-template-columns: 1fr;
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .cards {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .category {
+        width: 95.9vw;
+        padding: 0.5rem;
+        margin: 0 0.6rem 0 0.4rem ;
+    }
+
+    .list {
+        padding: 0.5rem;
+        width: 95.9vw;
+        margin: 0 0.6rem 0 0.4rem;
+    }
+
+}
